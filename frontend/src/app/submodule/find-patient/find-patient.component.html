@@ -1,0 +1,42 @@
+<h2 mat-dialog-title> Search for Patient </h2>
+<br>
+
+<div>
+    <form [formGroup]="form" class="example-form">
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Id</mat-label>
+            <input matInput placeholder="Id" class="form-control" formControlName="id">
+        </mat-form-field>
+        <br>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Identification</mat-label>
+            <input matInput placeholder="Identification" class="form-control" formControlName="identification">
+        </mat-form-field>
+        <br>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>FirstName</mat-label>
+            <input matInput placeholder="firstName" class="form-control" formControlName="firstName">
+        </mat-form-field>
+        <br>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>LastName</mat-label>
+            <input matInput placeholder="lastName" class="form-control" formControlName="lastName">
+        </mat-form-field>
+        <br>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="email" class="form-control" formControlName="email">
+        </mat-form-field>
+        <br>
+
+        <mat-dialog-actions align="end">
+            <button mat-button mat-dialog-close>Close</button>
+        </mat-dialog-actions>
+
+    </form>
+</div>
